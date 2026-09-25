@@ -1,0 +1,627 @@
+{
+  "schema": 1,
+  "entrypoint": "AtomicFeatures",
+  "source_module": "PKG26AtomicFeatures.ProofInterface",
+  "paper_source_modules": [
+    {
+      "path": "PKG26AtomicFeatures/DictionaryModel.lean",
+      "sha256": "81ec2345e63b830c7b467b94791a5fdf617c25a62305dfaca6638da79a550344"
+    },
+    {
+      "path": "PKG26AtomicFeatures/OpenRichness.lean",
+      "sha256": "300e6bdad246b948dbb372af01ed3b0bdf9a94f9c82913bb0546bb1fa5c08501"
+    },
+    {
+      "path": "PKG26AtomicFeatures/AppendixHall.lean",
+      "sha256": "1c3be62f9aa3f92b8e2c8e8bd41774bc2e091b2cb14f571e9673ec60ad3a172e"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SparseCoverCounting.lean",
+      "sha256": "a54f0d3e27db1990b620a758b444919c25f66c0c4fe2cf34f9201f78fb823762"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ConcentrationProfile.lean",
+      "sha256": "7fb87563f0a0865055a06e4c9f6cbede2a6a8e95a1ba827dff8446e7944f58c0"
+    },
+    {
+      "path": "PKG26AtomicFeatures/GenericDimension.lean",
+      "sha256": "58d51de70c54ac8a4aaaa42a89632e2af98cbdd0ae4a09225c78c6b8e0b9fcfa"
+    },
+    {
+      "path": "PKG26AtomicFeatures/EqualSizeIdentifiability.lean",
+      "sha256": "3df0bf8d0c8c88c7de37d792d0f35b6eb80bc90a4d50bf8a2d5d524bd2fcca48"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ConditionalRigidity.lean",
+      "sha256": "e04b9d27e115387700817602fe0d112e51490a6a5f56129d38ab6adea350b987"
+    },
+    {
+      "path": "PKG26AtomicFeatures/DimensionCounterexample.lean",
+      "sha256": "9b66ab9ac032830e862adfb21b2eee7dcaf0dd4e559ef15f92bd6df5017f18a7"
+    },
+    {
+      "path": "PKG26AtomicFeatures/Featurization.lean",
+      "sha256": "28b198c6b6c5d692b29c0459e48637cd51dd2bb427e9fddd4b4c93e0c910c770"
+    },
+    {
+      "path": "PKG26AtomicFeatures/LocalGlobalHall.lean",
+      "sha256": "db7e2c94284cf1fb200613eb3aed44f1313f92926656ed177ac2b59ca655acde"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SphericalGenericDimension.lean",
+      "sha256": "5ee30dd563c2d0d73a84da55c040d93b57d6d6d522bac0b814ca2ae0b0a6d1c3"
+    },
+    {
+      "path": "PKG26AtomicFeatures/GenericFeaturization.lean",
+      "sha256": "258fa3fe2e39c9380363f8ba38ab2e7692cade9e67fe278838ba68cd29937968"
+    },
+    {
+      "path": "PKG26AtomicFeatures/PopulationRecovery.lean",
+      "sha256": "fa605a8a1d10f57ccf2d7552eb2643ddf6b028547dd0395f7e89977232d1b52f"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SparseStability.lean",
+      "sha256": "b95a8d416a60f31e6164dbfa24eb09bfc1fb7ace4ae6cdfc4ddb13cd3186b7e9"
+    },
+    {
+      "path": "PKG26AtomicFeatures/OvercompleteIdentifiability.lean",
+      "sha256": "4a52be765209f85cf7ce915309a3adb281bc247da5cd966cb4efdb8bc0457d34"
+    },
+    {
+      "path": "PKG26AtomicFeatures/AdjacentSupportRigidity.lean",
+      "sha256": "a391bcb8f8b71343839efda96032d2b400698f20b5b108b2d942d8456852b26c"
+    },
+    {
+      "path": "PKG26AtomicFeatures/AtomicRigidity.lean",
+      "sha256": "80bd4d0e148c7e681c243fa79e4085e435d8ded7f654f52996e388ccddb9d2f3"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ProjectedSparseStability.lean",
+      "sha256": "1138af5189a26067428b9abecb881117efca4c4be59a8c270a852e2a4c1a1418"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SparseCodeGeometry.lean",
+      "sha256": "16e359caf9f1c8e2307c1c963032175a4c19d355b7465825071f9a2d0441a3e4"
+    },
+    {
+      "path": "PKG26AtomicFeatures/StableSupportIntersections.lean",
+      "sha256": "971f675e17a336c9b7922a624f6cefc103341e5d3fc4ef3b631a9509e49c81b5"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SelectedSourceMaps.lean",
+      "sha256": "f98d786596fd883cc8351f9fd70589f7ccc7d3b8038badb6ba99e26d5433a4e6"
+    },
+    {
+      "path": "PKG26AtomicFeatures/WeightedGoodSupports.lean",
+      "sha256": "cdbc5f5e1f9334218a813a344b37eb91e88c0d9d70388c86aa3c8d33f40e603c"
+    },
+    {
+      "path": "PKG26AtomicFeatures/FiniteDimensionalCovering.lean",
+      "sha256": "80bc989a75602acffe3780c57868abe8fc8a6dfc9cff955dc140873d7b10cb60"
+    },
+    {
+      "path": "PKG26AtomicFeatures/BoundedCoefficientExcitation.lean",
+      "sha256": "748e558744738720ae592ef900c81f402c0152137e8156e10c0e2baeb01e9241"
+    },
+    {
+      "path": "PKG26AtomicFeatures/UniformCubeCoefficients.lean",
+      "sha256": "e190fb8fd96fca15d60a71452602df7b7ed4492eea50508223674b225959bc6d"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SparseImageCompression.lean",
+      "sha256": "fe829c7ec889b05b90c2e10d8828c1cd118c54bfa8d40f3acfe28fe42d523c56"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SparseSubspaceIncidence.lean",
+      "sha256": "f0e25c1bc2b946806438b4e135a21d91a3877f61f9d95853cec2b67bf798c5fc"
+    },
+    {
+      "path": "PKG26AtomicFeatures/DensityBoundedCoefficients.lean",
+      "sha256": "c39da24c8c890346f94f56ecef0bf2c6a49e2b76ef2fce016c5e487acd17e8dc"
+    },
+    {
+      "path": "PKG26AtomicFeatures/FeatureF1.lean",
+      "sha256": "fa54a68eb2c677bbe4333ee2e3f0be0548f9a368dd18c1dfcdee50c7ca45f653"
+    },
+    {
+      "path": "PKG26AtomicFeatures/RegularPopulationModel.lean",
+      "sha256": "0a716be5ab48d610f69af80867735797198c34f959886bf0b066d3445dda8221"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SourceTruncationBounds.lean",
+      "sha256": "d63c043d77992cb9180ebf5b15684922cd83ce4ae8d15f7c1bd67471423b32bd"
+    },
+    {
+      "path": "PKG26AtomicFeatures/RankedFeatureTail.lean",
+      "sha256": "c8fe2ae9162de197da139b7220209c43936149d9366cdb0474dfccfb70b6c69d"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ProjectedCoefficientCodes.lean",
+      "sha256": "a54a41744edd3d5329b687f4050b412e0c43c44bfa0e515d12e5c8a28c209859"
+    },
+    {
+      "path": "PKG26AtomicFeatures/OrientationPenalty.lean",
+      "sha256": "021ed4911299cb75eac09082f15be7d3da3fe7b3ede62d98dac5e21e18513ede"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SignedLineGeometry.lean",
+      "sha256": "58c90bf173f52275268141f297cbd27c0059bed89842690826eda2245ee77ac5"
+    },
+    {
+      "path": "PKG26AtomicFeatures/TestableMatchingMetrics.lean",
+      "sha256": "553ffd21aec8e6eb291871452470a36cd63f18675c1f76a1357e629ce0a670d6"
+    },
+    {
+      "path": "PKG26AtomicFeatures/HierarchicalSupportLaw.lean",
+      "sha256": "da5027ea81d4b6b40e982115c60b91675e04b1e3a3f1450c4eae477e03e33a6e"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SupportConditioning.lean",
+      "sha256": "cab0c04da2769690b6a5d22ddfd0e16e7b65710ecb36432dc434308de61223ca"
+    },
+    {
+      "path": "PKG26AtomicFeatures/HierarchicalPopulationModel.lean",
+      "sha256": "19a650b39dbe4e11079b1fa1ab04245c124e0cb70a3351a450db872cab476f79"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ThresholdedFeatureRecovery.lean",
+      "sha256": "555f6b015e7ba2483bb1bda5a996762fb64e3d8c6754c850e77ab1b625393f78"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ModulusConditionalRecovery.lean",
+      "sha256": "50682130e20084e6c13fe0f226935766bc4fe6f084bc9951fb6a6674928e748e"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ModulusSupportRecovery.lean",
+      "sha256": "26720efa22273e38cb3883a778fece43f55a4cef61ed320204687ce92cca7868"
+    },
+    {
+      "path": "PKG26AtomicFeatures/UpperDensityModulus.lean",
+      "sha256": "217c098c76ea0af8aabace898028dd9e7891c2731bb6960523ceb1d3127035cf"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscalePopulationModel.lean",
+      "sha256": "b045c61e1b0d654b9418167661deb16ad65a16a12497e5f6716eeaa962978728"
+    },
+    {
+      "path": "PKG26AtomicFeatures/RegularPopulationModulus.lean",
+      "sha256": "b72298854067e928d480e01a3115c2b14aa5b4089b7429d0a2984aef71c36a58"
+    },
+    {
+      "path": "PKG26AtomicFeatures/RegularHierarchicalPopulation.lean",
+      "sha256": "72df1d525fea4cb797557fd36893dddb44d4aa77874fa3351347e041f4e2703f"
+    },
+    {
+      "path": "PKG26AtomicFeatures/QuotientDirectionGeometry.lean",
+      "sha256": "931cec55be95998eb76521ad1f81249ff8fabda5a05da89b783013269f99205f"
+    },
+    {
+      "path": "PKG26AtomicFeatures/FeatureF1Supremum.lean",
+      "sha256": "47bfe0d03715821434e73687257ce8b13e456ae5c75643d7a984ccf8f4195d95"
+    },
+    {
+      "path": "PKG26AtomicFeatures/FeatureSupportExpectation.lean",
+      "sha256": "5dee5f3f7600148c2fada3f9bde2dba5a9daa4f9403ed2aeb5cfe2f7d117cf53"
+    },
+    {
+      "path": "PKG26AtomicFeatures/RepresentationOptimizationModel.lean",
+      "sha256": "74d40a6f90ec975050c6d68788f4fe6ede7e89e6ef53fc75fa93b4562314a5a3"
+    },
+    {
+      "path": "PKG26AtomicFeatures/NoisySourceModel.lean",
+      "sha256": "d5950bf4853d6c63a5e1fb172a260f63df1d7850be669412fbe2f30376db18db"
+    },
+    {
+      "path": "PKG26AtomicFeatures/PaperInterface.lean",
+      "sha256": "1dd24b218af87e1e8c4ca1b5b7a9b916eb5dd6cd2f387cd63b8ec85fea3e6b2b"
+    },
+    {
+      "path": "PKG26AtomicFeatures/FiniteScaleSupportRecovery.lean",
+      "sha256": "11a3161032a8885cc8d3047812ba3fcfa4fd16911af98ef250d9377a481a0820"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SupportedCoordinateProjection.lean",
+      "sha256": "672d41ba706f32a87e4e5f4faa0861cee64e0214c1d40dddbd82ba2c08bd3a98"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ExceptionalCompanionWeights.lean",
+      "sha256": "7fb172844680cd32bc50dd6e60e2d705efd65dfd95760578996daff307378d4c"
+    },
+    {
+      "path": "PKG26AtomicFeatures/EligibleSupportGeometry.lean",
+      "sha256": "cdaced8156af3deb41ecd0604b94d3210414c02c44e84085b4f52a7886e53030"
+    },
+    {
+      "path": "PKG26AtomicFeatures/LocalMatchedCoefficientEstimates.lean",
+      "sha256": "101476cedb54ad369f11871a714bc9a31116d39a5eb958c94530c048ae2c7cc5"
+    },
+    {
+      "path": "PKG26AtomicFeatures/EligibleSupportRecovery.lean",
+      "sha256": "d4de3c670f69fa4946370fe2f21298a5888a9188f5b2ab10e13b217efd14ce7a"
+    },
+    {
+      "path": "PKG26AtomicFeatures/CoordinateTailRecoveryBounds.lean",
+      "sha256": "2fc1ecabc1532a498b937bb24eec838aa8f9051d4f7d4222ff80bf68859262d8"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MixtureRecoveryBounds.lean",
+      "sha256": "6c3f4b6b9e5d791de4d04c8782bd4307028f46e530aac159c735ca065b0ea022"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MatchedFeatureRecovery.lean",
+      "sha256": "652a6bb9eb08d9408c3e9aa57e792f342ac674f883732b55b364341b71377555"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ExceptionalMixtureBounds.lean",
+      "sha256": "2ec28b5960466f233b6e104551e4963605935ce23ec2b0f11716f44b12413787"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SupportMembershipMatching.lean",
+      "sha256": "13ebda117927c2274270dadab4928d849c8752dc5c043ac714a0fe6b985163d5"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ApproximateSupportMatching.lean",
+      "sha256": "4488f57b19521c14c740c658833d037cd0361c11b9c70512e4882771b4e91bf6"
+    },
+    {
+      "path": "PKG26AtomicFeatures/GoodSupportMatching.lean",
+      "sha256": "fb63ac8a52794212309f735229c6bdf9399191ef70f548764dc8cb81630d1608"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ConditionalRecoveryScales.lean",
+      "sha256": "4bdf760d7dfa55f108e1a6bafcbecfeea3ba9795d33e52d2d3b1230098f71ca8"
+    },
+    {
+      "path": "PKG26AtomicFeatures/RegularSupportRecovery.lean",
+      "sha256": "1cc3ad4344b729dae8636c14aaa02e721baa96dbca3f8a4b1b7e230fdffd7c66"
+    },
+    {
+      "path": "PKG26AtomicFeatures/CorrelatedPopulationRecovery.lean",
+      "sha256": "9cba9bdd69446832de4ccb5d0b08ad54efc9e4177475333316a3c4eb62f647c2"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ModulusPopulationRecovery.lean",
+      "sha256": "0b4d8dcec85920a15786ee6313b01622cdcc85b701665b19c4b6f70bce3a01e7"
+    },
+    {
+      "path": "PKG26AtomicFeatures/FiniteScalePopulationRecovery.lean",
+      "sha256": "89f1a6092d2dc9e1ed5fad1cc39f072766db87a848b05a04ffda3dd5b03e66d4"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ModulusFiniteScaleBridge.lean",
+      "sha256": "aa20c79adf04ebdf226138d1b9330fa1b75a0ca017bdf9acd2f42c5e5a6fa843"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SparseCodeSanitation.lean",
+      "sha256": "513f7b70b01b78de0d05bb977b7221b898fb77e7043245b36272d977444961f9"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SignedRecoveryExtensions.lean",
+      "sha256": "685e4a3042c5d4c97c8cb4df1aed02ff71cdce060a1e850df030755e2ca185fb"
+    },
+    {
+      "path": "PKG26AtomicFeatures/AETailComparator.lean",
+      "sha256": "4faa1e3930dbbfccb76a028ab48cf76dcfff7d16a23431413afbe42dd292a1aa"
+    },
+    {
+      "path": "PKG26AtomicFeatures/TailRecoveryPrinciple.lean",
+      "sha256": "4e1c46c3d169b1c0872b6d1a53077bd2d2829582cbc0becd036bb1227499cf98"
+    },
+    {
+      "path": "PKG26AtomicFeatures/CommonRecoveryPredictions.lean",
+      "sha256": "963beaacfe8cf20ce2231b8c234adfb3fe8856973f2c16e84bc8b0bc5b2170ad"
+    },
+    {
+      "path": "PKG26AtomicFeatures/RankedRecoveryPredictions.lean",
+      "sha256": "485eb3170ecb53a72393dae3c7fbbbf4cf3dbf3d2fdf03d77b7edcbbed804518"
+    },
+    {
+      "path": "PKG26AtomicFeatures/HierarchicalTailComparator.lean",
+      "sha256": "9abf3385656749e4528a380dd2eecc3f06f188799edb823e5911b496ce1cb614"
+    },
+    {
+      "path": "PKG26AtomicFeatures/RegularHierarchicalRecovery.lean",
+      "sha256": "451b22b7ec571f71c9974554d0552ea62667e2aef9706199df1b158a73e858a1"
+    },
+    {
+      "path": "PKG26AtomicFeatures/LocalSupportRecovery.lean",
+      "sha256": "b0828c4a01b0d1181884318011287e029dd1e66452e9bfe69080598d3e4c3e4c"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ActivationTransfer.lean",
+      "sha256": "f0e5c63f0396f801bad396cb6b4d562572f607aaa623393c09dea7b20ae1ec8b"
+    },
+    {
+      "path": "PKG26AtomicFeatures/TwoColumnStability.lean",
+      "sha256": "ae2894bef27b800e4ce925cb546d4b2ae05f202d56dd663230d932eb5f6066dd"
+    },
+    {
+      "path": "PKG26AtomicFeatures/NonnegativeLeastSquares.lean",
+      "sha256": "fd4400ba182ab70237f2def1f34c053b880ee5b4cda3ee9dba56841db1ed6514"
+    },
+    {
+      "path": "PKG26AtomicFeatures/NonnegativeLeastSquaresPopulation.lean",
+      "sha256": "1b0c9dbe786eac25c22cf9ae96fd025d1abb53f921c5365d1b8857ecad347c81"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleReferenceBenchmark.lean",
+      "sha256": "8062a731f798d211c1f6cdb02628c36fdb6645f320d97e3337729707e3f36077"
+    },
+    {
+      "path": "PKG26AtomicFeatures/NonnegativeLeastSquaresDerivative.lean",
+      "sha256": "3a0bbf2a17de0baeac7981dbda56cf73129d6232c048aceff0b88ce05319e477"
+    },
+    {
+      "path": "PKG26AtomicFeatures/NonnegativeLeastSquaresIsometry.lean",
+      "sha256": "5eadb410915da3d454734f4b6e441efdc804783323b75d9713575729bb67a7aa"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleReferenceStationarity.lean",
+      "sha256": "264a5572cb4b53de2de340fd75c3f24f14a8553da6e80088711966b71fb8290b"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ReflectionVariations.lean",
+      "sha256": "6712191a23ee601b73afc0b31783a03187c0b19553b4cd3b8e69dfb88b163055"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleReferenceGeometry.lean",
+      "sha256": "ee93f42fe34f8373b1ae0260ca3bc409ad6d94685577af9f9c40651c6bcdbe62"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleEigenplaneObstruction.lean",
+      "sha256": "8619bfe33cef11413c26867fab78e52c59dac7bda630c18c5089d097c2c21955"
+    },
+    {
+      "path": "PKG26AtomicFeatures/TwoColumnConeGeometry.lean",
+      "sha256": "9417bc5f0028415e2afb5c1dafbbcd56e87f228d3344a20feff5e1350b1a9d6a"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleClippingObstruction.lean",
+      "sha256": "0924d81ad29a798157a55e473dd8aacfad05e875ca09a0f6ee2035b03a207dfb"
+    },
+    {
+      "path": "PKG26AtomicFeatures/NonnegativeLeastSquaresContinuity.lean",
+      "sha256": "af23bca87be929304c9d25c0ca5cee7ec24a8a2cad7074a361cb19114c40542d"
+    },
+    {
+      "path": "PKG26AtomicFeatures/NonnegativeLeastSquaresActiveSet.lean",
+      "sha256": "22ffff0ba9c9731b92e62e824006dc038947776bef765054fc4935d2fa034424"
+    },
+    {
+      "path": "PKG26AtomicFeatures/TwoRayAngularGeometry.lean",
+      "sha256": "9d9a7f0e887e1be9375f31124ac5af2b5158638ffcc1c011f94e49163e9cfe5f"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscalePlaneStationarity.lean",
+      "sha256": "3223521da8e22677914c0838a142810fa6406f31300ae3d1b96592ce2fe621eb"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleReferenceClipping.lean",
+      "sha256": "88234ade7924d7443363960c03cc5cce35f1f202b01f039d5819f2a4046cd641"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ContinuousLeastSquaresRisk.lean",
+      "sha256": "3619a59cf74a81c84704ec717cfdd1313df99ab6449e0c8fb07edede4d2bb122"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleRiskIntegration.lean",
+      "sha256": "7983a18e9a2bc42b2c6fda96ca09d62c416c140be416545f8a4a1287aeeccb2b"
+    },
+    {
+      "path": "PKG26AtomicFeatures/NonnegativeLeastSquaresRiskPerturbation.lean",
+      "sha256": "477953a54d327c2143f5178b1b4623f43375a65d1927e6c2ceabe9c99523fc6c"
+    },
+    {
+      "path": "PKG26AtomicFeatures/NonnegativeLeastSquaresHomogeneity.lean",
+      "sha256": "032acef66ed601bd8de738a4c6711133a2a0a97de18c82aec99e3c0650f9bc3a"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleRiskPerturbation.lean",
+      "sha256": "08fc863cab5192530f12bd8e4ad4dfd00f950c370f45fabd43eea2eb96988c5e"
+    },
+    {
+      "path": "PKG26AtomicFeatures/DominantAtomF1.lean",
+      "sha256": "c8d08681e728ab0688d97e50c86c78e512c3da9481cd2cbdaa0339f460e1768d"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleDominantPredictions.lean",
+      "sha256": "0467d7fb8303e300fe9b32d6be6a266fd91ef9330c928fcfc5614caab8309fdd"
+    },
+    {
+      "path": "PKG26AtomicFeatures/CompactMinimizerPerturbation.lean",
+      "sha256": "46294675a218074fc9d3c3c6138f4f90a93656931966223612ffa12133bb90f1"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleWidthTwoRecovery.lean",
+      "sha256": "aa9d75c25d626c0ab7b562b2746afd6219cd730a3cdd568f7171bd1f2bc3d71a"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleSupportTieBreak.lean",
+      "sha256": "1dcc6eeeb5735a8e0590825bbd806c7ad50110d9444a7b4ec20d770c53932d0f"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleParameterChoice.lean",
+      "sha256": "a920a8142af271f05cacc4e1491870a3cde7de2cd44763e82d2b859820c42db2"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SymmetricFamilyCovariance.lean",
+      "sha256": "ee847ee1756fb6d62f4df21bde6700d317ce89bc7ae4e001a39591628fb92bbc"
+    },
+    {
+      "path": "PKG26AtomicFeatures/NonnegativeRankOneRecovery.lean",
+      "sha256": "58e8a78288ed41c22977f5759be55b8947b8be3e5365a9ac93a47528f1c4a798"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleCovariance.lean",
+      "sha256": "ccaefc9f78d5cca5d5be1572de4d189cae817ebad77e8ab4d7c154f98550ef95"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleSymmetricPredictions.lean",
+      "sha256": "c24b761cf2865b6742eba6ff4b0bef8b309b61a70303f046d9c71f38b12c346a"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleWidthOneRecovery.lean",
+      "sha256": "d2cdb63d4b859f6c2abbfb4fb6ccf21fe339015a74483ec0512601d1382965ce"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ContinuousEncoderRigidity.lean",
+      "sha256": "74264159b73a740cf9ef20f7590e8ac2ec0098c189f96b162c01c4cbe2b0167f"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SurplusWidthRigidity.lean",
+      "sha256": "d25885be5f8627cef64994a716564e2e9491b642c01c9df210128fa17d919504"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SupportPatternRigidity.lean",
+      "sha256": "fa3e9c370d9d053f5bccbc5622709e344ddd12cff443c76dccf0a29e271c6625"
+    },
+    {
+      "path": "PKG26AtomicFeatures/HierarchicalInversePattern.lean",
+      "sha256": "07feee710e11d58f2f56b3cf59f2a43045b98b0d97a7b0b8853f6b484f7506d7"
+    },
+    {
+      "path": "PKG26AtomicFeatures/HierarchicalZeroLossPresence.lean",
+      "sha256": "64e9a73d98a28cad04316bb46a667a6071299863b90c2d8924a46e062f1a46a1"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleZeroLossRecovery.lean",
+      "sha256": "5ef07af25d65ea9b61ea12e1598435548ec5355fc9067b8ff75041e2f6938be2"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleWidthThreeRecovery.lean",
+      "sha256": "51b19cd5c94a422361b3671cc7894adb3c9517ee1ec4837579e0385f34bc0e5a"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleRankOneGap.lean",
+      "sha256": "67e747b88a54c9d7a3e8b15297ccc5f7c5dbfe29c5b1b06edc60a686452a7386"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscalePositiveLoss.lean",
+      "sha256": "6e3ce2e0519884d44a3c919903ea5cfb799b5bbb94644a48186df3ca0b2f5355"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleLossOrdering.lean",
+      "sha256": "af1cb63ce9259ab7675169af8e7c5f657599f912d91f32efa7e30862aa55fc49"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleConstruction.lean",
+      "sha256": "1a2e3c4924201f116ca3dbf946614f94d124ab5e2e170dbaa5b882a3acfd88e1"
+    },
+    {
+      "path": "PKG26AtomicFeatures/PositivePopulationScaling.lean",
+      "sha256": "d44fc1382c0bb386af3bf71dd8eec8869ef0f4dc396983ac9f7fd33b7a379d46"
+    },
+    {
+      "path": "PKG26AtomicFeatures/OptimalLossScaling.lean",
+      "sha256": "ab6d84091d20f428f716ccf953966d8ae7ecf38bdc7e843d771597f8a2dbe4cf"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SparseCubeRetraction.lean",
+      "sha256": "94df826e5e0fad6eb48dd50a57fdd7b7ebe945de5f5b0aa3376e6a82b5e0795a"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleScaledConstruction.lean",
+      "sha256": "e6532307acc22ef3468d503d43152f3c6129cbc4cc5950b26b7d08b3f7812c55"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleAllWidthTieBreak.lean",
+      "sha256": "659a62c9c276b98c56042cdec8845f242c9e596713f06650a1612d056261c6c7"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleSourceWitness.lean",
+      "sha256": "482deb2d9755cfda4ede5dfe260a21dc1ec676575a2ca20c1de5f3a23e27da85"
+    },
+    {
+      "path": "PKG26AtomicFeatures/CountableCoefficientLaw.lean",
+      "sha256": "405fb23914e511c1e025eddab26a8188de54b5308fb7e3fd0f4f76ee2e4b6112"
+    },
+    {
+      "path": "PKG26AtomicFeatures/CountablePopulationLift.lean",
+      "sha256": "ad1326e4f16dfc13186f98a04143e8e60991395851828d41e3552a73326bee3c"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleVariationPopulation.lean",
+      "sha256": "66c909f166578c1c3081919a6f053430394f17a9f9dfdc620012253a3295d539"
+    },
+    {
+      "path": "PKG26AtomicFeatures/HierarchicalTopologicalSupport.lean",
+      "sha256": "e5ddc27e9dd9c0981abd1021b687a61b3d73fcad3c962dff98be938ce31fd043"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleCountableVariation.lean",
+      "sha256": "c43f7f9a915e40a8fbba8c02a53eb663eac844c01986b6dccdc64f5754d2a9f7"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleVariationCovariance.lean",
+      "sha256": "245bdb6b71958948bc25bc4a9cf709e041f60147d3279cbbbc6b8b4b616fb41f"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleVariationWidthOne.lean",
+      "sha256": "9d2a5ebb462311b0c4f9fb8c5be4fabf1b1689d4be0e0a57364745e59288a08e"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleVariationRisk.lean",
+      "sha256": "09acdd80002a66647d020410f061438c9630e99316ac529d79241b725098406c"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleVariationWidthTwo.lean",
+      "sha256": "2240d29fa3fd3d74b526e60653055fa3a58e6d451b30eb776383abe67dc2f229"
+    },
+    {
+      "path": "PKG26AtomicFeatures/HierarchicalSupportRecovery.lean",
+      "sha256": "5c4676ea13409b92392cd7ccac197c2ddae17569e0252d76bd0aad7d6c3d179d"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleVariationLossOrdering.lean",
+      "sha256": "1f3e294360446d6e8d68eb2887dd80139f291552813f595b83bf2f1b68b264f8"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleCountableConstruction.lean",
+      "sha256": "12a13bbae9501aa82208de639f9e7913be0ec265416bf9a3bdd1f4275c472950"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleCountableScaledConstruction.lean",
+      "sha256": "b6ceb508b83ce59d2d2b4cc83dc029ff705422dc690282879dc97161b69546e4"
+    },
+    {
+      "path": "PKG26AtomicFeatures/AmbientDictionaryCompression.lean",
+      "sha256": "c14a665fe5b355585ab3a560606cadb3b6aa21cd6c0ae692b6a447f897488150"
+    },
+    {
+      "path": "PKG26AtomicFeatures/OrthonormalDictionaryTransport.lean",
+      "sha256": "fb187ea7b9ffb628fe89417b7f8a4dad1ec9619e5b44341f14908b331cc01aa2"
+    },
+    {
+      "path": "PKG26AtomicFeatures/AmbientPopulationCompression.lean",
+      "sha256": "eb9e6aafb88d2a7f67a0e0e91ed40b08a6285d3a5aed230377195938f9b23ce3"
+    },
+    {
+      "path": "PKG26AtomicFeatures/PopulationScoreTransport.lean",
+      "sha256": "f21645eb47e89efc182f3624ee7f0aeee28240a5c0326c4da84a28f32c8f1d66"
+    },
+    {
+      "path": "PKG26AtomicFeatures/OrthonormalPopulationTransport.lean",
+      "sha256": "5e1bb8f5a139835a37c61712dc276f13e64cdbeaf8832cb94638cfb07f7bb930"
+    },
+    {
+      "path": "PKG26AtomicFeatures/SparseCubeSourceMoments.lean",
+      "sha256": "1311f09b4cc29bab4c6584a02068786bb1cf52227b9d8efe7a8c419aa0a965a9"
+    },
+    {
+      "path": "PKG26AtomicFeatures/MesoscaleArbitrarySource.lean",
+      "sha256": "e77eee2b1cf4389c866e2a9445c8b7877d9966ef8a28bcef59956e51c9102a8c"
+    },
+    {
+      "path": "PKG26AtomicFeatures/HierarchyRichness.lean",
+      "sha256": "97966d3325dcf480a937e35779a176eeebaed07a3cfc355fd4ba5d142e71bb23"
+    },
+    {
+      "path": "PKG26AtomicFeatures/ProofInterface.lean",
+      "sha256": "24a65569495e435c8f94e83c70e93393de260646b349410b9e60f30531dfdeeb"
+    }
+  ],
+  "reusable_aml_modules": [],
+  "other_paper_modules": [],
+  "external_dependency": "Mathlib and its pinned dependencies",
+  "validation_status": "All eleven source-facing results have accepted strict closeout. The complete extracted module closure and all eleven proof-to-statement and standard-axiom checks pass. The standalone repository provides clean-checkout CI with pinned public dependencies."
+}
